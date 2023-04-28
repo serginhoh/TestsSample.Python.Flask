@@ -2,7 +2,45 @@
 
 Projeto para demonstração em Python de Testes Unitários e de Integração utilizando Flask e pytest.
 
-Referências
+
+# Execução:
+
+- criar diretório virtual para instalação dos packages
+```
+    python -m venv venv
+```
+- ativar
+```
+  .\venv\Scripts\activate
+
+  Visual Studio Code
+
+  Ctrl + Shift + P
+
+  opção Selecionar o Interpretador 
+
+  indicar o arquivo python.exe dentro do diretório virtual .\venv\Scripts
+```
+- instalar os pacotes
+```
+    pip install -r requirements.txt
+```
+- Execução 
+
+  - Aplicação
+  ```
+      cd src
+      
+      flask run --reload 
+  ```
+  - Testes
+  ```
+    no diretório raiz
+    
+    python -m pytest -v
+  ```
+
+# Referências
 
 https://realpython.com/api-integration-in-python/#flask
 
