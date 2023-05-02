@@ -44,6 +44,8 @@ Projeto para demonstração em Python de Testes Unitários e de Integração uti
 
 # Referências
 
+https://flask.palletsprojects.com/en/2.3.x/
+
 https://realpython.com/api-integration-in-python/#flask
 
 https://docs.pytest.org/en/7.3.x/
