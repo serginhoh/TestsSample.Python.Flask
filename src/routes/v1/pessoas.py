@@ -12,12 +12,3 @@ from datetime import datetime
    )
 async def add_pessoa(pessoa: Pessoa):
     return await PessoaService().adiciona_pessoa(pessoa) 
-
-@app.route('/', methods=['POST'])
-@pydantic_api(
-        name="Post Pessoas",        # Name of path operation in OpenAPI schema
-        tags=["Pessoas"],           # OpenAPI tags
-        success_status_code=201
-   )
-async def test_pessoa():
-    return {'tste':'ate'}

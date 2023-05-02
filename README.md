@@ -32,6 +32,8 @@ Projeto para demonstração em Python de Testes Unitários e de Integração uti
       cd src
       
       flask run --reload 
+
+      RapiDoc -> http://127.0.0.1:5000/apidocs/
   ```
   - Testes
   ```
@@ -51,3 +53,5 @@ https://docs.pydantic.dev/usage/validators/
 https://github.com/adamsussman/flask-pydantic-api
 
 https://understandingdata.com/posts/list-of-python-assert-statements-for-unit-tests/
+
+https://rapidocweb.com/
