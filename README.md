@@ -29,9 +29,9 @@ Projeto para demonstração em Python de Testes Unitários e de Integração uti
 
   - Aplicação
   ```
-      cd src
+      no diretório raiz
       
-      flask run --reload 
+      flask --app src/app run --reload 
 
       RapiDoc -> http://127.0.0.1:5000/apidocs/
   ```
